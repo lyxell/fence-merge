@@ -1,5 +1,41 @@
 ## fence-merge
 
+If we consider half-fences in isolation there's really only three
+cases:
+
+Case 1, variation 1:
+```
+x
+---
+```
+
+Case 1, variation 2:
+```
+---
+x
+```
+
+Case 2, variation 1:
+```
+x
+---  x
+```
+
+Case 2, variation 2:
+```
+---   x
+x
+```
+
+Case 3:
+```
+x
+---   x
+x
+```
+
+---
+
 <img src="https://raw.githubusercontent.com/lyxell/fence-merge/main/figures/figure1.svg">
 
 ---
