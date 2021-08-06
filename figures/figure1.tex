@@ -2,7 +2,7 @@
 \usepackage{fontspec}
 \setmainfont{Fira Code}
 \begin{document}
-\begin{tikzpicture}[xscale=1.5]
+\begin{tikzpicture}[xscale=3.0]
 % o--o--o
 \node[circle,thick,draw] (0) at (0,0) {};
 \node[circle,thick,draw] (1) at (1,0) {};
@@ -32,6 +32,8 @@
 \node[circle,thick,draw] (12) at (1,-5) {};
 \node[circle,thick,draw] (13) at (2,-5) {};
 \draw[thick] (11) -- (12) -- (13);
+
+\draw[dashed,thick] (3) -- (4) -- (9) -- (10);
 
 \end{tikzpicture}
 \end{document}
