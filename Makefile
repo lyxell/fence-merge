@@ -1,4 +1,4 @@
-all: figures/figure1.svg
+all: figures/figure1.svg figures/figure2.svg
 
 %.svg: %.pdf
 	pdf2svg $< $@
